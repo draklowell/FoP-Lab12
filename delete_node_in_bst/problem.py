@@ -7,7 +7,7 @@
 class Solution:
     def findSmallest(self, root: TreeNode) -> TreeNode:
         while root.left is not None:
-            return root.left
+            root = root.left
 
         return root
 
